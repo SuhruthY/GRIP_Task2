@@ -2,8 +2,6 @@
 &emsp;The task aims to creating a Decision Tree classifier and visualize it graphically. The purpose is if we feed any new data to this classifier, it would be able to
 predict the right class accordingly.
 
-#### Find the Detailed Documentation here: [nbviewer](https://nbviewer.jupyter.org/github/SuhruthY/GRIP_Task2/blob/master/tree.ipynb)  
-
 ## Overview
 &emsp;The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant.  One class is linearly separable from the other 2; the latter are NOT linearly separable from each other. 
 - Predicted attribute: class of iris plant.
@@ -26,8 +24,10 @@ predict the right class accordingly.
 ## Procedure
 &emsp;We need to now about the *difference between sepal and petal* and some basic knowledge about decision tree. Splitted the data into 2 parts used seperately for training and testing with as test size of 33%. Used the Decision Tree Classifier to predict the class and accuracy_score as a metric. I pruned the final tree to obtain the potential pros and cons of the tree. Python libraries such as Pandas, Numpy, Seaborn, Matplotlib, Sklearn are used.
 
+#### Find the Detailed Documentation here: [nbviewer](https://nbviewer.jupyter.org/github/SuhruthY/GRIP_Task2/blob/master/tree.ipynb)  
+
 ## Conclusion
-&emps;You can experiment with different test sizes or seperate a set for validation. Also try other metrics. You can also tune parameter in various cases neccessary.  
+&emsp;You can experiment with different test sizes or seperate a set for validation. Also try other metrics. You can also tune parameter in various cases neccessary.  
 
 ## References
 - [Classification: Basic concepts of Decision Tree, and Model Evaluation by Kumar, University of Minnesota](https://www-users.cs.umn.edu/~kumar001/dmbook/ch4.pdf)
