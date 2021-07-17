@@ -1,6 +1,8 @@
-# Prediction using Decision Tree Algorithm: [Full Code](https://nbviewer.jupyter.org/github/SuhruthY/GRIP_Task2/blob/master/tree.ipynb)
+# Prediction using Decision Tree Algorithm
 &emsp;The task aims to creating a Decision Tree classifier and visualize it graphically. The purpose is if we feed any new data to this classifier, it would be able to
 predict the right class accordingly.
+
+#### Find the Detailed Documentation here: [nbviewer](https://nbviewer.jupyter.org/github/SuhruthY/GRIP_Task2/blob/master/tree.ipynb)  
 
 ## Overview
 &emsp;The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant.  One class is linearly separable from the other 2; the latter are NOT linearly separable from each other. 
