@@ -29,13 +29,18 @@ predict the right class accordingly.
 &emsp;I used Scikit-learn, a free software machine learning library for the Python programming language to build a Decision Tree Classifier which will then predict the class of Iris correctly. I also used cost complexity pruning to improve the accuracy of my model.
 
 ## Procedure
-&emsp;
+&emsp;We need to now about the *difference between sepal and petal* and some basic knowledge about decision tree. Splitted the data into 2 parts used seperately for training and testing with as test size of 33%. Used the Decision Tree Classifier to predict the class and accuracy_score as a metric. I pruned the final tree to obtain the potential pros and cons of the tree. Python libraries such as Pandas, Numpy, Seaborn, Matplotlib, Sklearn are used.
 
 ## Conclusion
-&emps;
+&emps;You can experiment with different test sizes or seperate a set for validation. Also try other metrics. You can also tune parameter in various cases neccessary.  
 
 ## References
-
+- [Classification: Basic concepts of Decision Tree, and Model Evaluation by Kumar, University of Minnesota](https://www-users.cs.umn.edu/~kumar001/dmbook/ch4.pdf)
+- [Decision Tree Classification in Python by Avinash Navlani, datacamp](https://www.datacamp.com/community/tutorials/decision-tree-classification-python)
+- [Decision Tree Classifier Documentation by sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+- [Decision Tree on Iris dataset by Chris Edwards, kaggle](https://www.kaggle.com/chrised209/decision-tree-modeling-of-the-iris-dataset)
+- [Decision and Classification Trees, Clearly Explained!!! by StatQuest](https://youtu.be/_L39rN6gz7Y)
+- [StatQuest: Decision Trees, Part 2 - Feature Selection and Missing Data](https://www.youtube.com/watch?v=7VeUPuFGJHk)
 
 
 
